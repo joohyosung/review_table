@@ -20,6 +20,12 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script defer src="./js/map.js"></script>
+    </script>
+    <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9ZzSD-rb0liBHQjiVvhcn98AXJv-RcJA&callback=initMap"
+    ></script>
 </head>
 <body>
     <header>
@@ -80,7 +86,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 section-text">
-                <div class="title">
+                <div id="map" style="height: 600px;" class="title">
                     <h2>지도 들어갈 자리</h2>
                     <!-- <h6>Closer to the star</h6> -->
                     <!-- <div class="divider divider-sm"></div> -->
